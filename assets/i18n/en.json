@@ -1,0 +1,199 @@
+{
+    "home": "Home",
+    "thanks": "Thanks",
+    "nav":{
+        "exp": "Experience",
+        "form": "Education",
+        "comp": "Skills",
+        "int" : "Hobbies"
+    },
+   "exp":{
+       "title": "Work Experience",
+       "sopra":{
+           "title": "Sopra Steria Aix-les-Milles",
+           "date": "sept.2019 - Present",
+           "fonction":"Junior web developer (work-study training)",
+           "line1": "Development of management web applications.",
+           "line2":"Standardization of codes and development of new reusable components.",
+           "line3":"Technologies used: Elasticsearch, HTML, CSS, JS, Typescript, C#, Angular, .NET MVC"
+       },
+       "sncf":{
+        "title": "SNCF Mobilité Technicentre d'Avignon",
+        "date": "sept.2018 - sept. 2019",
+        "fonction":"Apprentice engineer in methods office (work-study training)",
+        "line1": "Set up of IT and material tools to make it easy for people to work in the maintenance center, and to increase productivity.",
+        "line2":"VBA code to ease stock treatments and planification.",
+        "line3":"Digital transformation of the management of maintenance sheet.",
+        "line4":"Developed skills: VBA, Management, Plannification"
+    }
+   }, 
+   "form":{
+        "title": "Education",
+        "centrale":{
+            "title": "Centrale Marseille",
+            "date": "sept.2017 - Present",
+            "diploma":"General engineering diploma",
+            "line1": "Options :",
+            "line2":"2nd year : mathematics, IT, economy, mecanics, artificial intelligence and game theory.",
+            "line3":"3rd year: Java, FullStack and mobile development, artificial intelligence, Internet of Things"
+        },
+        "prepa":{
+            "title": "CPGE Lycée Thiers",
+            "date": "sept.2015 - sept. 2017",
+            "diploma":"Intensive courses to prepare entrance examination to best engineering schools",
+            "text": "Specialty : mathematics and physics"
+        },
+        "lycee":{
+            "title": "Lycée Saint Jospeh de la madeleine",
+            "date": "juin 2015",
+            "diploma":"Scientific baccalaureat",
+            "text": "Options mathematics and music (piano)."
+        }
+    },
+    "comp":{
+        "html":{
+            "title": "HTML, Javacsript, CSS",
+            "theo":"Watch tutorial on TheNetNinja Youtube page, theorical and practical courses at Centrale Marseille",
+            "pra":"Website development for personnal projects, school projects and during my work-study training at Sopra Steria"
+        },
+        "type":{
+            "title": "Typescript",
+            "theo":"",
+            "pra":"Web development in Angular, using Typescript for personal projects. Development of a treeview component using only Typescript for Sopra Steria"        
+        },
+        "angu":{
+            "title":"Angular",
+            "theo":"Angular's tutorial 'Tour of heroes'. Several reading of articles and tutorials.",
+            "pra":"Development for personal projects, school projects and development of a model for Sopra Steria. Development of my resume website and my project of searching your first job website."
+        },
+        "react":{
+            "title":"React",
+            "theo":"Reading on Packt website (React and react native, Beginning react, React Components)",
+            "pra":""
+        },
+        "djan":{
+            "title":"Django",
+            "theo":"Tutorial Django.",
+            "pra":"Web development with python and django pour the final project of my IT option in second year of Centrale Marseille."
+        },
+        "jq":{
+            "title":"jQuery",
+            "pra":"Using in several personal or profesional cases.",
+            "theo":""
+        },
+        "node":{
+            "title" :"Nodejs",
+            "theo":"Watch tutorial on TheNetNinja Youtube page. Reading on Packt website (Node.js Essentials, Learn Node.js by building 6 projects, Node.js Web Development Fourth Edition) ",
+            "pra":"Developments using Node.js, including my project to search your first job."
+        },
+        "csharp":{
+            "title":"C#",
+            "theo":"Several tutorials on OpenClassroom (Apprenez à developper en c#, Apprenez ASP.net MVC Programmez orienté objet avec c#, Apprenez à programmer en C# sur.Net, Creez votre première application connectée en c#/.net), sur Pluralsight (ASP.NET MVC 5 Fundamentals). Lecture du livre Pro ASP.NET MVC 5 de Adam Freeman.",
+            "pra":"In my team at Sopra Steria, every application is developped using C# ASP.NET MVC"
+        },
+        "java":{
+            "title":"Java",
+            "theo":"Courses in Centrale Marseille for my options (Java and FullStack and mobile development).",
+            "pra":""
+        },
+        "sql":{
+            "title": "SQL",
+            "pra":"Use for every application in my team at Sopra Steria (creating database, writing scripts and stocked procedures).",
+            "theo":""
+        },
+        "elk":{
+            "title":"Elasticsearch + Logstash + Kibana",
+            "theo":"Reading the full documentation. Writing of an abstract and a guide .",
+            "pra":"My first mission at Sopra Steria consisted in testing and setting up these softwares in order to use them in our applications."
+        },
+        "ia":{
+            "title":"Intelligence artificielle et machine learning",
+            "theo":"Courses at Centrale Marseille during my second and third years",
+            "pra":"Solving game problems (chess and awale)."
+        },
+        "python":{
+            "title":"Python",
+            "pra": "",
+            "theo" : "Several courses and works in several fields during my studies in Classes préparatoires and Centrale Marseille."
+        },
+        "matlab":{
+            "title": "Matlab",
+            "theo":"",
+            "pra":"Courses at Centrale Marseille, using in several subject, including a final project in Waves and signal."
+        },
+        "agile":{
+            "title":"Développement agile",
+            "theo":"Courses at Centrale Marseille. Studying of the agile manifesto, and presentation to my collegues at Sopra Steria.",
+            "pra":""
+        },
+        "projet":{
+            "title": "Gestion de projet",
+            "theo":"MOOC. Implementation in my teams at SNCF, Sopra Steria or during school projects.",
+            "pra":""
+        },
+        "vba":{
+            "title": "VBA",
+            "theo":"Reading tutorials at OpenClassroom. ", 
+            "pra": "Code for SNCF to optimize planning and storage processes ."
+        },
+        "adob":{
+            "title":"Adobe Illustrator, Adobe Photoshop",
+            "pra":"Making banners, posters, logo for my associations at Centrale Marseille.",
+            "theo":""
+        },
+        "fr":{
+            "title":"French",
+            "pra":"native",
+            "theo":""
+        },
+        "en":{
+            "title":"English",
+            "pra":"Advanced, TOEIC 960",
+            "theo":""
+        },
+        "es":{
+            "title":"Spanish",
+            "pra":"Intermediate",
+            "theo":""
+        }
+    },
+    "int":{
+        "title": "Hobbies",
+        "photo":"Photography film and reflex",
+        "music": "Music",
+        "sport": "Sport",
+        "cook": "Cooking",
+        "asso": "Volunteering",
+        "film":"Movies and TV shows"
+    },
+    "cv":{
+        "cv-button": "My resume",
+        "cv-text": "To print a simplified version of my resume",
+        "aboutme":{
+            "title":"About me",
+            "text":"I am a hardworking, dynamic and ambitious individual with a great passion for IT. I am currently in my third and last year of studying general Engineering."
+        },
+        "project":{
+            "title": "Projects",
+            "resume":{
+                "title":"Dynamic Resume Website",
+                "text":"My personal website, where it is possible to find my resume in a dynamic version, or a more traditionnal one."
+            },
+            "job":{
+                "title":"Website to find your first job",
+                "text":"Website that helps you find the company of your dream for a first job, an internship  or work-study training according to several criterias."
+            }
+        },
+        "print":"Print Resume",
+        "load":"Download Resume"
+    },
+    "skills":{
+        "title":"Skills"
+    },
+    "lang":{
+        "title":"Languages",
+        "fr":"French - native",
+        "en":"English - advances (TOEIC : 960)",
+        "es":"Spanish - intermediate"
+    } 
+}

@@ -1,0 +1,52 @@
+<body>
+    <main>
+        <div class="fixed-bg bg-1">
+            <h1 class="main-text">Audrey Tordjmann</h1>     
+        </div>
+        <div class="fixed-bg bg-1-1">
+            <div class="box-container">
+                <div class="box-child">
+                <app-home-container [categorie]='exp.titre' [style] = 'exp.style' [url] = 'exp.url'></app-home-container>
+              </div>
+              <div class="box-child">
+                <app-home-container [categorie]='formation.titre' [style] = 'formation.style' [url] = 'formation.url'></app-home-container>
+              </div>
+              <div class="box-child">
+                <app-home-container [categorie]='competence.titre' [style] = 'competence.style' [url] = 'competence.url'></app-home-container>
+              </div>
+              <div class="box-child">
+                <app-home-container [categorie]='interet.titre' [style] = 'interet.style' [url] = 'interet.url'></app-home-container>
+                </div>
+            </div>
+        </div>
+        <div class="fixed-bg bg-2">
+          <p translate>cv.cv-text</p>
+          <app-print-cv></app-print-cv>         
+        </div>
+        <div class="fixed-bg bg-3">
+          <div class="btn-container">
+              <div class="contactBtn">
+                  <a id='clicHome'><i class="fa fa-home" aria-hidden="true"></i></a>
+                  <p hidden id="home">13 rue Marx Dormoy, 13004 Marseille</p>
+              </div>
+          <div class="contactBtn">
+              <a id='clicPhone'><i class="fa fa-mobile" aria-hidden="true"></i></a>
+              <p hidden id="phoneNumber">06.27.63.35.05</p>
+          </div>
+          <div class="contactBtn">
+              <a id="clicLinkedin" href="http://www.linkedin.com/in/audrey-tordjmann" target="_blank"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+              <p hidden id="linkedinBtn">linkedin.com/in/audrey-tordjmann</p>
+            </div>
+          <div class="contactBtn">
+              <a id='clicMail'><i class="fa fa-envelope" aria-hidden="true"></i></a>
+              <p hidden id="mail">tordjmann.audrey@gmail.com</p>
+          </div>
+        </div>
+        </div>
+        <div class="fixed-bg">
+          <h2 translate>thanks</h2>
+          <p>
+          </p>
+        </div>
+  </main>
+</body>

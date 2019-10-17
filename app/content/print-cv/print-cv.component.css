@@ -1,0 +1,18 @@
+.btn{
+    color:#fff;
+    background:#263056;
+    padding:10px 20px;
+    font-size:12px;
+    text-decoration:none;
+    letter-spacing:2px;
+    text-transform:uppercase;
+  }
+  
+  .btn:hover{
+    cursor: pointer;
+    border:none;
+    background:#263056;
+    background:#fff;
+    color:#1b1b1b;
+    padding:15px 20px;  
+  }

@@ -1,0 +1,169 @@
+$bg-color: #E6E5E1;
+$shdow-gray: #d3d3d5;
+$orange: #FF6F61;
+$img-url: "https://images.unsplash.com/photo-1525543907410-b2562b6796d6?ixlib=rb-0.3.5&s=9ff8e5e718a6a40cbd0e1471235912f4&auto=format&fit=crop&w=3452&q=80";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+i {
+  opacity: 0;
+  font-size: 18px;
+  color: #fff;
+  will-change: transform;
+  -webkit-transform: scale(0.1);
+  transform: scale(0.1);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+h2{
+  pointer-events:none;
+}
+
+body {
+  background-color: $bg-color;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .card {
+    position: relative;
+    /*height: 150px;*/
+    overflow: hidden;
+    margin: 10px;
+    
+    ul {
+      z-index: 99;
+      position: absolute;
+      left: 39px;
+      top: 5px;
+      list-style-type: none;
+      li {
+        width: 2px;
+        height: 2px;
+        border-radius: 2px;
+        margin: 6px 0;
+        background-color: $bg-color;
+      }
+    }
+    h2 {
+      z-index: 99;
+      position: absolute;
+      bottom: 20px;
+      /*right: 130px;*/
+      color: #fff;
+    }
+
+    .fa-arrow-right {
+      z-index: 100;
+      position: absolute;
+      right: 75px;
+      bottom: 25px;
+      font-size: 40px;
+      cursor: pointer;
+    }
+    p {
+      z-index: 99;
+      position: absolute;
+      top: 20px;
+      right: 70px;
+      color: #333;
+      opacity: 0.7;
+      font-size: 12px;
+      letter-spacing: 1px;
+      writing-mode: vertical-lr;
+      -webkit-transition: all 0.2s ease;
+      transition: all 0.2s ease;
+    }
+    .form, .exp, .comp, .interet {
+      z-index: 100;
+      background-size: 100% 100%;
+      filter: grayscale(0);
+    }
+
+    @media (min-width:780px){
+      .form, .exp, .comp, .interet {
+        width: 400px;
+        height: 200px;
+      }
+    }
+    @media (max-width:780px){
+      .form, .exp, .comp, .interet {
+      width: 200px;
+      height: 100px;
+      }
+    }
+
+    .form {
+        background-image: url("https://phototrend.fr/wp-content/uploads/2016/04/Photo-floue-759x500.jpg");
+      }
+    .exp {
+        background-image: url("https://static.fnac-static.com/multimedia/Images/FD/Comete/100384/CCP_IMG_ORIGINAL/1287419.jpg");
+      }
+    .comp{
+        background-image: url("https://cdn.pixabay.com/photo/2019/08/06/08/21/golden-4387704_960_720.jpg");
+    }
+    .interet{
+        background-image: url("http://www.minutefacile.com/wp-content/uploads/2018/06/03BF021C06840700-photo-la-maitrise-du-flou.jpg");
+    }
+
+    &:hover i {
+      opacity: 1;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+
+    button {
+      position: absolute;
+      right: 14px;
+      bottom: 14px;
+      width: 30px;
+      height: 30px;
+      background-color: $orange;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      outline:none;
+      transition: all 0.3s ease;
+      mix-blend-mode: hard-light;
+
+      i {
+        font-size: 3rem;
+      }
+    }
+
+    &:hover button {
+      transform: scale(16.5);
+    }
+
+    &:hover p {
+      color: #fff;
+    }
+    
+    &:hover .exp{
+      filter: grayscale(100%);      
+    }
+    &:hover .form{
+        filter: grayscale(100%);        
+    }    
+    &:hover .comp{
+        filter: grayscale(100%);        
+    }
+    &:hover .interet {
+        filter: grayscale(100%);        
+    }
+  }
+}
+

@@ -1,0 +1,47 @@
+<nav class="nav" id="top-bar">
+  <div class="nav_title">
+    <a routerLink="" class="btn" translate>home</a>
+    <span id="smallTitle">Audrey Tordjmann</span>
+  </div>
+  <ul class="nav_list">
+    <li class="nav_item">
+      <app-print-cv></app-print-cv>
+    </li>
+    <li class="nav_item">
+      <app-contact-btn [couleur]="contactColor"></app-contact-btn>
+    </li>
+    <li class="nav_item">
+      <a id='fr' class="btn-lang selected" (click)="useLanguage('fr')">fr</a>
+      <a id='en' class="btn-lang" (click)="useLanguage('en')">en</a>
+    </li>
+  </ul>
+</nav>
+
+<nav class="nav_mobile">
+	<div class="nav_head">
+  <div class="nav_cross">
+	<a (click)=showMobileNav() class="btn btn_menu" id="openMenuBtn"><i class="fa fa-bars"></i></a>
+	<a (click)=closeMobileNav() class="btn btn_menu" id="closeMenuBtn" hidden><i class="fa fa-times"></i></a>
+  </div>
+  <div class="nav_title">
+    <a routerLink="" id="smallTitle">Audrey Tordjmann</a>
+  </div>
+</div>
+<div id="navList" hidden>
+  <ul class="nav_list">
+    <li class="nav_item">
+      <a (click)=closeMobileNav() routerLink="" class="btn" translate>home</a>
+    </li>
+    <li class="nav_item">
+      <app-print-cv (click)=closeMobileNav()></app-print-cv>
+    </li>
+    <li class="nav_item">
+      <app-contact-btn (click)=closeMobileNav() [couleur]="contactColor"></app-contact-btn>
+    </li>
+    <li class="nav_item">
+      <a id='frMob' class="btn-lang selected" (click)="useLanguage('fr')">fr</a>
+      <a id='enMob' class="btn-lang" (click)="useLanguage('en')">en</a>
+    </li>
+  </ul>
+</div>
+</nav>

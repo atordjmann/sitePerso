@@ -1,0 +1,199 @@
+{
+    "home": "Accueil",
+    "thanks": "Merci pour votre visite",
+    "nav":{
+        "exp": "Expérience",
+        "form": "Formation",
+        "comp": "Compétences",
+        "int" : "Centres d'intérêt"
+    },
+   "exp":{
+       "title": "Expériences professionnelles",
+       "sopra":{
+           "title": "Sopra Steria, Aix-les-Milles",
+           "date": "sept.2019 - Présent",
+           "fonction":"Développeur web junior en alternance",
+           "line1": "Développement d'applications de gestion dans le pôle .NET de l'agence.",
+           "line2":"Standardisation de codes et dévelopement de nouveaux composants réutilisables.",
+           "line3":"Technologies utilisées : Elasticsearch, HTML, CSS, JS, Typescript, C#, Angular, .NET MVC"
+       },
+       "sncf":{
+        "title": "SNCF Mobilité, Technicentre d'Avignon",
+        "date": "sept.2018 - sept. 2019",
+        "fonction":"Apprenti ingénieur méthode",
+        "line1": "Mise en place d'outils informatiques et matériels afin de faciliter le travail des autres employés du centre de maintenance, et de le rendre plus productif.",
+        "line2":"Code VBA pour faciliter le traitement des stocks et la plannification.",
+        "line3":"Digitalisation du traitement des fiches de maintenance.",
+        "line4":"Compétences développées: VBA, Management, Plannification"
+    }
+   }, 
+   "form":{
+        "title": "Formation",
+        "centrale":{
+            "title": "Centrale Marseille",
+            "date": "sept.2017 - Présent",
+            "diploma":"Diplôme d'ingénieur généraliste",
+            "line1": "Options :",
+            "line2":"2ème année : mathématiques, informatique, economie, mécanique, intelligence artificielle et théorie des jeux.",
+            "line3":"3ème année: Java, développement fullstack et mobile, intelligence artificielle, Internet of Things"
+        },
+        "prepa":{
+            "title": "CPGE Lycée Thiers",
+            "date": "sept.2015 - sept. 2017",
+            "diploma":"Classe préparatoire aux grandes écoles",
+            "text": "Filière MPSI puis MP*."
+        },
+        "lycee":{
+            "title": "Lycée Saint Jospeh de la madeleine",
+            "date": "juin 2015",
+            "diploma":"Baccalauréat Scientifique",
+            "text": "Spécialité mathématiques et option musique (piano) en candidat libre."
+        }
+    },
+    "comp":{
+        "html":{
+            "title": "HTML, Javacsript, CSS",
+            "theo":"Visionnage de tutoriels sur la page Youtube de TheNetNinja, Cours théoriques et travaux pratiques à Centrale Marseille",
+            "pra":"Développement de sites web pour des projets personnels, des projets d'école et dans le cadre de mon alternance chez Sopra Steria"
+        },
+        "type":{
+            "title": "Typescript",
+            "theo":"",
+            "pra":"Développement d'applications pour des projets personnels en Angular, utilisant le typeScript. Développement d'un composant 'treeview' uniquement en Typescript dans le cadre de mon alternance à Sopra Steria "
+        },
+        "angu":{
+            "title":"Angular",
+            "theo":"Tutoriel Angular 'Tour of heroes'. Lecture de nombreux articles et tutoriel sur le sujet.",
+            "pra":"Développement d'applications pour des projets personnels, scolaires et pour une maquette d'application pour Sopra Steria. Développement de mon site de CV et de mon projet de site de recherche d'emploi."
+        },
+        "react":{
+            "title":"React",
+            "theo":"Lecture de livres sur Packt(React and react native, Beginning react, React Components)",
+            "pra":""
+        },
+        "djan":{
+            "title":"Django",
+            "theo":"Tutoriel Django.",
+            "pra":"Développement d'une application web python et django pour le projet final de l'option informatique de deuxième année."
+        },
+        "jq":{
+            "title":"jQuery",
+            "pra":"Utilisation dans de nombreux développements personnels, scolaires ou professionnels.",
+            "theo":""
+        },
+        "node":{
+            "title" :"Nodejs",
+            "theo":"Tutoriel sur la page Youtube de TheNetNinja. Lecture de livres sur le site Packt (Node.js Essentials, Learn Node.js by building 6 projects, Node.js Web Development Fourth Edition) ",
+            "pra":"Développement d'applications en back Node.js, dont mon projet d'application de recherche de premier emploi."
+        },
+        "csharp":{
+            "title":"C#",
+            "theo":"Nombreux tutoriels sur OpenClassroom (Apprenez à developper en c#, Apprenez ASP.net MVC Programmez orienté objet avec c#, Apprenez à programmer en C# sur.Net, Creez votre première application connectée en c#/.net), sur Pluralsight (ASP.NET MVC 5 Fundamentals). Lecture du livre Pro ASP.NET MVC 5 de Adam Freeman.",
+            "pra":"Toutes les applications du pôle dans laquel je travaille, sont développées avec un back C# ASP.NET MVC"
+        },
+        "java":{
+            "title":"Java",
+            "theo":"Cours de Centrale Marseille pour l'option Java et l'option développement FullStack et Mobile. Lecture de livres sur Packt (Java Fundamentals, Java 9 Programming By Example)",
+            "pra":""
+        },
+        "sql":{
+            "title": "SQL",
+            "pra":"Utilisation de Oracle SQL Developer pour toutes les applications du pôle .NET à Sopra Steria (création de base de donnée, écriture de scripts et de procédures stockées)",
+            "theo":""
+        },
+        "elk":{
+            "title":"Elasticsearch + Logstash + Kibana",
+            "theo":"Lecture de la documentation complète des logiciels. Ecriture d'un résumé et d'un guide.",
+            "pra":"Mission pour Sopra Steria consistant en l'étude de la suite de logiciel en vue d'une mise en oeuvre dans les projets de l'équipe."
+        },
+        "ia":{
+            "title":"Intelligence artificielle et machine learning",
+            "theo":"Cours à Centrale Marseille en deuxième et troisième année.",
+            "pra":"Résolutions de problèmes de jeux d'échec et d'awale."
+        },
+        "python":{
+            "title":"Python",
+            "pra": "",
+            "theo" : "Cours et réalisation de nombreux travaux dans divers domaines au cours de mes études entre la première année de classe préparatoire et ma dernière année à Centrale Marseille."
+        },
+        "matlab":{
+            "title": "Matlab",
+            "theo":"",
+            "pra":"Cours à Centrale Marseille, utilisation dans plusieurs matières et élaboration d'un projet final pour la matière Ondes et Signal."
+        },
+        "agile":{
+            "title":"Développement agile",
+            "theo":"Cours à Centrale Marseille. Etude du manifeste agile en vue d'une présentation à mes collègues de Sopra Steria.",
+            "pra":""
+        },
+        "projet":{
+            "title": "Gestion de projet",
+            "theo":"",
+            "pra":"MOOC sur la gestion de projet. Mise en oeuvre au sein de mon équipe à la SNCF, à Sopra Steria ou lors de projets de groupe à Centrale Marseille."
+        },
+        "vba":{
+            "title": "VBA",
+            "theo":"Lecture de tutoriels sur OpenClassroom.", 
+            "pra": "Code pour la SNCF permettant d'optimiser le traitement de fichiers Excel d'approvisionnement"
+        },
+        "adob":{
+            "title":"Adobe Illustrator, Adobe Photoshop",
+            "pra":"Création de bannières, affiches et logo pour mes associations.",
+            "theo":""
+        },
+        "fr":{
+            "title":"Français",
+            "pra":"langue maternelle",
+            "theo":""
+        },
+        "en":{
+            "title":"Anglais",
+            "pra":"Avancé, TOEIC 960",
+            "theo":""
+        },
+        "es":{
+            "title":"Espagnol",
+            "pra":"Intermédiaire",
+            "theo":""
+        }
+    },
+    "int":{
+        "title": "Centres d'intérêt",
+        "photo":"Photographie argentique et reflex",
+        "music": "Musique",
+        "sport": "Sport",
+        "cook": "Cuisine",
+        "asso": "Engagement associatif",
+        "film": "Cinéma et séries télé"
+    } ,
+    "cv":{
+        "cv-button": "Mon CV",
+        "cv-text": "Pour imprimer une version simplifiée de mon CV",
+        "aboutme":{
+            "title":"A propos de moi",
+            "text":"Je suis une personne travailleuse, dynamique et ambitieuse avec une passion pour l'informatique. Je suis actuellement en troisième et dernière année d'école d'ingénieur généraliste."
+        },
+        "project":{
+            "title": "Projets",
+            "resume":{
+                "title":"Site de mon CV dynamique",
+                "text":"Mon site personnel, où il est possible de trouver mon CV en version dynamique et dans une version plus classique."
+            },
+            "job":{
+                "title":"Site de recherche de première expérience professionnelle",
+                "text":"Un site qui aide les jeunes à trouver l'entreprise de leur rêve pour une première expérience professionnelle, que ce soit pour un stage, une césure, une alternance ou un premier emploi, et selon différents critères."
+            }
+        },
+        "print":"Imprimer le CV",
+        "load":"Télecharger le CV"
+    },
+    "skills":{
+        "title":"Compétences"
+    },
+    "lang":{
+        "title":"Langues",
+        "fr":"Français - maternel",
+        "en":"Anglais - avancé (TOEIC : 960)",
+        "es":"Espagnol - intermédiaire"
+    }
+}

@@ -1,0 +1,18 @@
+<body>
+  <h1>Compétences</h1>
+  <div class="comp">
+    <app-side-menu></app-side-menu>
+    <div class="section-body">
+      <div *ngFor="let elmt of competences">
+        <h2><i class="{{elmt.icon}}"></i>{{elmt.title}}</h2>
+        <div class="skill-line">
+          <div class="{{elmt.class}}" *ngFor="let comp of elmt.tab" (click)=clic($event)>
+            <h3 translate>comp.{{ comp }}.title</h3>
+            <p hidden translate>comp.{{ comp }}.theo</p>
+            <p hidden translate>comp.{{ comp }}.pra</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

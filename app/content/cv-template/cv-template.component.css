@@ -1,0 +1,270 @@
+.cvActions{
+  margin:10px;
+  display:flex;
+  justify-content:flex-end;
+}
+
+.btn{
+  background:#fff;
+  color:#1b1b1b;
+  padding:20px 20px;
+  font-size:12px;
+  text-decoration:none;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  border:none;
+}
+
+.btn:hover{
+  cursor: pointer;
+  border:none;
+  background:#c9c9c9;
+  padding:20px 20px;
+}
+
+#cvHtml{
+  display:flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;    
+  padding:30px;
+  margin-bottom: 90px;
+  background-color:whitesmoke;
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+  font-size:small;
+  background-image: url("../../../Layer.png")
+}
+
+
+h1,h2{
+  color:black;
+  text-transform: uppercase;
+}
+
+h3{
+  color:#677194;
+}
+
+p{
+  overflow-wrap: break-word;
+  margin:0px;
+}
+
+.contacts{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contacts>div{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 50%;
+  min-width: 50%;
+  overflow-wrap: break-word;
+}
+
+.contacts>div>span{
+  font-size: smaller;
+}
+
+.about-me{
+  margin-top:30px;
+}
+
+.name{
+  text-align:center;
+  background-image: url("../../../Polygone.png");
+  background-size: cover;
+}
+
+.projects{
+  margin-top:30px;
+  margin-bottom: 30px;
+}
+
+.hobbies{
+  margin-top:30px;
+  margin-bottom: 30px;
+}
+
+.hobbies-icons{
+  display:flex;
+  flex-direction:row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+
+
+.hobbies-title{
+  display:flex;
+  flex-wrap: wrap;
+}
+.hobbies-title>span{
+  margin-right:5px;
+  overflow-wrap: break-word;
+}
+
+ul,li{
+  list-style-type: none;
+}
+ul{  margin-top:5px;}
+li>h3, li>p{
+  margin:0px;
+}
+
+li>h3>i{
+  margin-left:10px;
+  margin-right:10px;
+}
+
+li>p{
+  color:#6c6c6c;
+}
+.italic{
+  font-style: italic;
+}
+
+.skills{
+  background-image: url("../../../skills.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.skills>div{
+  width:100%;
+  height:170px;
+}
+.skills>div>h3{
+margin:0px;}
+
+.skill-box>p{
+  font-size: small;
+}
+.skill-line{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.skill-box>p{
+  text-align:center;
+  border-radius: 10px;
+  padding:2px;
+  border: 1px solid #195190;
+  margin:2px;
+}
+
+@page {
+    size: A4 portrait;
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+    printer-colors: exact !important;
+    printer-color-adjust: auto !important;
+  }
+
+  @media print {
+    #cvHtml {
+      -webkit-print-color-adjust: exact !important;
+      color-adjust: exact !important;
+      width:21cm;
+      height:28cm;
+    }
+    
+
+    @page {
+      size: A4 portrait;
+      width:21cm;
+      height:28cm;
+      -webkit-print-color-adjust: exact !important;
+      /* Chrome, Safari */
+      color-adjust: exact !important;
+      /*Firefox*/
+      printer-colors: exact !important;
+      printer-color-adjust: auto !important;
+    }
+  }
+
+  @media (min-width:780px){
+    #cvHtml{
+      width:21cm;
+      height:28cm;
+    };  
+    .hobbies-icons>i{
+      font-size:x-large;
+    } 
+    .contacts>div>i{
+      text-align: center;
+      color:white;
+      font-size:x-large;
+    }
+    .leftCv{
+      background-color:#fac0bf;
+      width:23%;
+      padding:10px;
+      font-size:smaller;
+    }    
+    .rightCv{
+      background-color: white;
+      width:70%;
+      padding:20px;
+    }
+    div>ul{
+      padding-inline-start: 20px;
+    }
+  .name{height: 270px;
+  }  
+  .name>h1{
+    padding-top: 100px;
+  }
+  }
+
+
+  @media (max-width:780px){
+  #cvHtml{
+    width:auto;
+    height:auto;
+    transform: scale(1);
+    padding:15px;
+    font-size:xx-small;
+  };
+
+  p, span, h1, h2, h3{
+    font-size: x-small;
+  }
+  div>ul{
+    padding-inline-start: 10px;
+  }
+  ul{
+    padding-inline-start: 10px;
+  }
+  .hobbies-icons>i{
+    font-size:x-small;
+  }
+  .contacts>div>i{
+    text-align: center;
+    color:white;
+    font-size:x-small;
+  }
+  .leftCv{
+    background-color:#fac0bf;
+    width:30%;
+    padding:5px;
+    font-size:smaller;
+  }  
+  .rightCv{
+    background-color: white;
+    width:70%;
+    padding:5px;
+    font-size:smaller;
+  }
+  .name{
+    height: 130px;
+  }  
+  .name>h1{
+    padding-top: 40px;
+  }
+}

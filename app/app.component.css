@@ -1,0 +1,14 @@
+body {
+    position: relative;
+}
+
+@keyframes apparition {
+    0%   { opacity:0; }
+    100% { opacity:1; }
+}
+
+footer {
+    opacity:0;
+    animation:apparition 0.3s ease-in-out 0.8s forwards;
+    margin:10px;
+ }
