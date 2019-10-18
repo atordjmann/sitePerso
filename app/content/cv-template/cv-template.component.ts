@@ -22,7 +22,7 @@ export class CvTemplateComponent implements OnInit {
   printCv = () => {
     const content = document.getElementById('cvHtml').outerHTML;
     const head = window.document.head.innerHTML;
-    const mywindow = window.open('', 'Print', 'height=600,width=800');
+    const mywindow = window.open('', 'Print', 'height=600,width=900');
     mywindow.document.write('<html><head>');
     mywindow.document.write(head);
     mywindow.document.write('</head><body>');

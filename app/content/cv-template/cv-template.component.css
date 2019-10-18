@@ -1,64 +1,65 @@
-.cvActions{
-  margin:10px;
-  display:flex;
-  justify-content:flex-end;
+.cvActions {
+  margin: 10px;
+  display: flex;
+  justify-content: flex-end;
 }
 
-.btn{
-  background:#fff;
-  color:#1b1b1b;
-  padding:20px 20px;
-  font-size:12px;
-  text-decoration:none;
-  letter-spacing:2px;
-  text-transform:uppercase;
-  border:none;
+.btn {
+  background: #fff;
+  color: #1b1b1b;
+  padding: 20px 20px;
+  font-size: 12px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: none;
 }
 
-.btn:hover{
+.btn:hover {
   cursor: pointer;
-  border:none;
-  background:#c9c9c9;
-  padding:20px 20px;
+  border: none;
+  background: #c9c9c9;
+  padding: 20px 20px;
 }
 
-#cvHtml{
-  display:flex;
+#cvHtml {
+  display: flex;
   justify-content: center;
   margin-left: auto;
-  margin-right: auto;    
-  padding:30px;
+  margin-right: auto;
+  padding: 30px;
   margin-bottom: 90px;
-  background-color:whitesmoke;
-  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  background-color: whitesmoke;
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-  box-shadow:         3px 3px 5px 6px #ccc;
-  font-size:small;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  font-size: small;
   background-image: url("../../../assets/images/layer.png")
 }
 
 
-h1,h2{
-  color:black;
+h1,
+h2 {
+  color: black;
   text-transform: uppercase;
 }
 
-h3{
-  color:#677194;
+h3 {
+  color: #677194;
 }
 
-p{
+p {
   overflow-wrap: break-word;
-  margin:0px;
+  margin: 0px;
 }
 
-.contacts{
+.contacts {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.contacts>div{
+.contacts>div {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -67,132 +68,143 @@ p{
   overflow-wrap: break-word;
 }
 
-.contacts>div>span{
+.contacts>div>span {
   font-size: smaller;
 }
 
-.about-me{
-  margin-top:30px;
+.about-me {
+  margin-top: 30px;
 }
 
-.name{
-  text-align:center;
+.name {
+  text-align: center;
   background-image: url("../../../assets/images/Polygone.png");
   background-size: cover;
 }
 
-.projects{
-  margin-top:30px;
+.projects {
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
-.hobbies{
-  margin-top:30px;
+.hobbies {
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
-.hobbies-icons{
-  display:flex;
-  flex-direction:row;
+.hobbies-icons {
+  display: flex;
+  flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
 }
 
 
 
-.hobbies-title{
-  display:flex;
+.hobbies-title {
+  display: flex;
   flex-wrap: wrap;
 }
-.hobbies-title>span{
-  margin-right:5px;
+
+.hobbies-title>span {
+  margin-right: 5px;
   overflow-wrap: break-word;
 }
 
-ul,li{
+ul,
+li {
   list-style-type: none;
 }
-ul{  margin-top:5px;}
-li>h3, li>p{
-  margin:0px;
+
+ul {
+  margin-top: 5px;
 }
 
-li>h3>i{
-  margin-left:10px;
-  margin-right:10px;
+li>h3,
+li>p {
+  margin: 0px;
 }
 
-li>p{
-  color:#6c6c6c;
+li>h3>i {
+  margin-left: 10px;
+  margin-right: 10px;
 }
-.italic{
+
+li>p {
+  color: #6c6c6c;
+}
+
+.italic {
   font-style: italic;
 }
 
-.skill-box>p{
+.skill-box>p {
   font-size: small;
 }
-.skill-line{
-  display:flex;
+
+.skill-line {
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-.skill-box>p{
-  text-align:center;
+
+.skill-box>p {
+  text-align: center;
   border-radius: 10px;
-  padding:2px;
+  padding: 2px;
   border: 1px solid #195190;
-  margin:2px;
+  margin: 2px;
 }
 
-@page {
-    size: A4 portrait;
-    -webkit-print-color-adjust: exact !important;
-    print-color-adjust: exact;
-    color-adjust: exact !important;
-    printer-colors: exact !important;
-    printer-color-adjust: auto !important;
+
+@media (min-width:780px) {
+  #cvHtml {
+    width: 21cm;
+    height: 28cm;
   }
 
-  @media (min-width:780px){
-    #cvHtml{
-      width:21cm;
-      height:28cm;
-    };  
-    .hobbies-icons>i{
-      font-size:x-large;
-    } 
-    .contacts>div>i{
-      text-align: center;
-      color:white;
-      font-size:x-large;
-    }
-    .leftCv{
-      background-color:#fac0bf;
-      width:23%;
-      padding:10px;
-      font-size:smaller;
-    }    
-    .rightCv{
-      background-color: white;
-      width:70%;
-      padding:20px;
-    }
-    div>ul{
-      padding-inline-start: 20px;
-    }
-  .name{height: 270px;
-  }  
-  .name>h1{
+  .hobbies-icons>i {
+    font-size: x-large;
+  }
+
+  .contacts>div>i {
+    text-align: center;
+    color: white;
+    font-size: x-large;
+  }
+
+  .leftCv {
+    background-color: #fac0bf;
+    width: 23%;
+    padding: 10px;
+    font-size: smaller;
+  }
+
+  .rightCv {
+    background-color: white;
+    width: 70%;
+    padding: 20px;
+  }
+
+  div>ul {
+    padding-inline-start: 20px;
+  }
+
+  .name {
+    height: 270px;
+  }
+
+  .name>h1 {
     padding-top: 100px;
   }
-  .skills>img{
-    height:170px;
+
+  .skills>img {
+    height: 170px;
   }
-  }
+}
 
 
-  @media (max-width:780px){
+@media (max-width:780px){
   #cvHtml{
     width:auto;
     height:auto;
@@ -242,62 +254,72 @@ li>p{
   .printBtn{
     display:none;
     visibility: hidden;
+  } 
+}
+
+@media print {
+  #cvHtml {
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+    width: 21cm !important;
+    height: 28cm !important;
+  }
+  #cvHtml {
+    width: 21cm;
+    height: 28cm;
   }
 
-  @media print {
-    #cvHtml {
-      -webkit-print-color-adjust: exact !important;
-      color-adjust: exact !important;
-      width:21cm !important;
-      height:28cm !important;
-    }
-    #cvHtml{
-      width:21cm;
-      height:28cm;
-    };  
-    .hobbies-icons>i{
-      font-size:x-large;
-    } 
-    .contacts>div>i{
-      text-align: center;
-      color:white;
-      font-size:x-large;
-    }
-    .leftCv{
-      background-color:#fac0bf;
-      width:23%;
-      padding:10px;
-      font-size:smaller;
-    }    
-    .rightCv{
-      background-color: white;
-      width:70%;
-      padding:20px;
-    }
-    div>ul{
-      padding-inline-start: 20px;
-    }
-  .name{height: 270px;
-  }  
-  .name>h1{
+  .hobbies-icons>i {
+    font-size: xx-large;
+  }
+
+  .contacts>div>i {
+    text-align: center;
+    color: white;
+    font-size:xx-large
+  }
+
+  .leftCv {
+    background-color: #fac0bf;
+    width: 26%;
+    padding: 10px;
+    font-size: 1.25em;
+  }
+
+  .rightCv {
+    background-color: white;
+    width: 70%;
+    padding: 20px;
+    font-size:small;
+  }
+
+  div>ul {
+    padding-inline-start: 20px;
+  }
+
+  .name {
+    height: 270px;
+  }
+
+  .name>h1 {
     padding-top: 100px;
   }
-  .skills>img{
-    height:170px;
-  }
-    
 
-    @page {
-      size: A4 portrait;
-      width:21cm;
-      height:28cm;
-      -webkit-print-color-adjust: exact !important;
-      /* Chrome, Safari */
-      color-adjust: exact !important;
-      /*Firefox*/
-      print-color-adjust: exact;
-      printer-colors: exact !important;
-      printer-color-adjust: auto !important;
-    }
+  .skills>img {
+    height: 170px;
   }
 }
+
+
+@page {
+  size: A4 portrait;
+  width: 21cm;
+  height: 28cm;
+  -webkit-print-color-adjust: exact !important;
+  /* Chrome, Safari */
+  color-adjust: exact !important;
+/*Firefox*/
+  print-color-adjust: exact;
+  printer-colors: exact !important;
+  printer-color-adjust: auto !important;
+  }

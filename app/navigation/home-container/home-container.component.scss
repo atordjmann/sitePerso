@@ -1,7 +1,6 @@
 $bg-color: #E6E5E1;
 $shdow-gray: #d3d3d5;
 $orange: #FF6F61;
-$img-url: "https://images.unsplash.com/photo-1525543907410-b2562b6796d6?ixlib=rb-0.3.5&s=9ff8e5e718a6a40cbd0e1471235912f4&auto=format&fit=crop&w=3452&q=80";
 
 * {
   margin: 0;
@@ -107,16 +106,16 @@ body {
     }
 
     .form {
-        background-image: url("https://phototrend.fr/wp-content/uploads/2016/04/Photo-floue-759x500.jpg");
+        background-image: url("../../../assets/images/education.jpg");
       }
     .exp {
-        background-image: url("https://static.fnac-static.com/multimedia/Images/FD/Comete/100384/CCP_IMG_ORIGINAL/1287419.jpg");
+        background-image: url("../../../assets/images/experience.jpg");
       }
     .comp{
-        background-image: url("https://cdn.pixabay.com/photo/2019/08/06/08/21/golden-4387704_960_720.jpg");
+        background-image: url("../../../assets/images/skills.jpg");
     }
     .interet{
-        background-image: url("http://www.minutefacile.com/wp-content/uploads/2018/06/03BF021C06840700-photo-la-maitrise-du-flou.jpg");
+        background-image: url("../../../assets/images/interet.jpg");
     }
 
     &:hover i {
