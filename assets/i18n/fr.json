@@ -103,8 +103,8 @@
         },
         "elk":{
             "title":"Elasticsearch + Logstash + Kibana",
-            "theo":"Lecture de la documentation complète des logiciels. Ecriture d'un résumé et d'un guide.",
-            "pra":"Mission pour Sopra Steria consistant en l'étude de la suite de logiciel en vue d'une mise en oeuvre dans les projets de l'équipe."
+            "theo":"Lecture de la documentation complète des logiciels. Ecriture d'une documentaion pour l'installation et l'utilisation.",
+            "pra":"Mission pour Sopra Steria consistant en l'étude de la suite de logiciel en vue d'une mise en oeuvre dans les projets de l'équipe. Etude complète de l'élaboration de groks afin de traiter des fichiers de log. Création de projets Angular utilisant un service Elasticsearch."
         },
         "ia":{
             "title":"Intelligence artificielle et machine learning",
@@ -157,14 +157,40 @@
             "theo":""
         }
     },
+    "proj":{
+        "title":"Projets",
+        "cv":{
+            "title":"CV dynamique",
+            "desc":"Dévelopememnt de mon site personnel permettant de présenter de façon dynamique mon CV, en utilisant le framework Angular. Hébergement sur le serveur fourni par mon école Centrale Marseille."
+        },
+        "job":{
+            "title":"Trouver une première expérience pro",
+            "desc":"Un site qui aide les jeunes à trouver l'entreprise de leur rêve pour une première expérience professionnelle, que ce soit pour un stage, une césure, une alternance ou un premier emploi, et selon différents critères. Le but est de faire correspondre au mieux les offres avec les candidats. Le site est codé avec Angular et NodeJs."
+        },
+        "treeview":{
+            "title":"Un Treeview réutilisable",
+            "desc":"Dans le cadre de mon travail à Sopra, j'ai développé un composant treeview en Typescript. Le but était de créer un composant facile d'utilisation, facilement modifiable au niveau de la vue et des données, facilement intégrable. Ce composant peut être facilement utilisé dans n'importe quel contexte."
+        },
+        "elastic":{
+            "title":"Documentation de la suite Elastic",
+            "desc":"J'ai travaillé sur l'écriture d'une documentation complète pour la suite Elastic. J'ai écris, grâce à mes expérimentations, une documentation pour installer facilement Elasticsearch, Logstash et Kibana. Ensuite, j'ai lu et résumé la totalité de la documentation d'Elasticsearch, en ajoutant des informations qui me paraissaient importantes. Enfin, j'ai créé un projet Angular doté d'un service Elasticsearch, disponible sur Github."
+        }
+    },
     "int":{
+        "hover": "survoler pour voir plus",
         "title": "Centres d'intérêt",
         "photo":"Photographie argentique et reflex",
-        "music": "Musique",
-        "sport": "Sport",
+        "music": "Musique - piano et ukulele",
+        "sport": "Sport - running, fitness",
         "cook": "Cuisine",
         "asso": "Engagement associatif",
-        "film": "Cinéma et séries télé"
+        "film": "Cinéma et séries télé",
+        "detail":{
+            "title":"Mon engagement associatif en détail",
+            "cheer":"L'association a pour but d'aider des personnes atteintes du cancer ou en rémission à réussir des projets. Pour cela, des évènements sont organisés afin de récolter des fonds, ou des projets et sorties avec les personnes en rémissions permettent de les aider à se distraire ou à faire évoluer un projet. J'étais la secrétaire de cette association en 2018, mais aussi la responsable des projets. Pendant mon mandat, j'ai participé à l'organisation de divers événements, comme la 'Course contre le Cancer', où chaque kilomètre parcouru permet de verser 1€ à une association, ou encore l'Opération Cupidon, où la vente de roses à la St Valentin permet de gagner de l'argent. J'ai organisé deux sorties pour les patients en rémission : une sortie voile et une sortie de vols de découvert en ULM.",
+            "inter":"J'étais membre de l'équipe organisant le tournoi sportif Intercentrale qui rassemble les cinq écoles Centrale (Paris, Lille, Nantes, Lyon, Marseille) pour un week end de compétition sportive dans cinq sports de balle. ",
+            "pho":"Echanges Phocéen est une association où les membres offrent un tutorat culturel aux jeunes issus de territoires de l'éducation prioritaire ou en situation de handicap pou rpromouvoir l'égalité des chances.J'étais en charge d'une classe de troisième."
+        }
     } ,
     "cv":{
         "cv-button": "Mon CV",

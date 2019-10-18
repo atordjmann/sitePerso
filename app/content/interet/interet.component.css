@@ -1,3 +1,4 @@
+  
 h1{
       text-align: center;
 }
@@ -100,7 +101,7 @@ img{
   }
   
   #demo2 {
-  top: 33%;
+  top: 10%;
   text-align: center;
   text-transform: uppercase;
       
@@ -153,7 +154,11 @@ img{
     opacity: 1;
   }
   
-  
+  @media (min-width:780px) {
+  .section-body{
+    margin-left:150px;
+  }
+}
   /*** HEXAGON SIZING AND EVEN ROW INDENTATION *****************************************************************/
   @media (min-width:1201px) { /* <- 5-4  hexagons per row */
     #hexGrid{

@@ -32,7 +32,7 @@ export class CvTemplateComponent implements OnInit {
     setInterval(() => {
       mywindow.print();
       mywindow.close();
-    } , 500);
+    } , 2000);
 
 
   }

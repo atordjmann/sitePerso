@@ -19,7 +19,7 @@ main
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 0 20px;
+  padding: 20px 20px;
   line-height: 1.5;    
 }
 
@@ -97,23 +97,23 @@ img {
 
 .bg-1 {
   background-color: #FF6F61;
-  padding-top: 60px; 
-  padding-bottom: 60px; 
+  padding-top: 40px; 
+  padding-bottom: 40px; 
 }
 .bg-1-1 {
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   min-height:400px;
 }
 .bg-2 {
   padding-top:30px;
   padding:10px;
-  min-height: 150px;
+  min-height: 180px;
   background-color:#FF6F61;
 }
 .bg-3 {
   padding-top:30px;
   padding:10px;
-  min-height: 150px;
+  min-height: 180px;
   background-color:#263056;
 }
 

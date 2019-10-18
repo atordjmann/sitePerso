@@ -20,9 +20,12 @@ export class CompetenceComponent implements OnInit {
     {icon : 'fa fa-align-left', title : 'Autre', tab : ['vba', 'adob'], class: 'skill-box skill-autre'},
   ];
 
+  arrow;
+  arrowDown = 'fas fa-chevron-down';
+  arrowUp = 'fas fa-chevron-up';
   clic = (e) => {
     let div;
-    if (e.target.tagName === 'H3') {
+    if (e.target.tagName === 'H3' || e.target.tagName === 'I') {
       div = e.target.parentElement;
     } else if (e.target.tagName === 'DIV') {
       div = e.target;

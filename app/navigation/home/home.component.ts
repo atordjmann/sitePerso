@@ -7,10 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  exp = {titre: 'nav.exp', style: 'exp', url: '/../work-experience'};
-  formation = {titre: 'nav.form', style: 'form', url: '/../education'};
-  interet = {titre: 'nav.int', style: 'interet', url: '/../hobbies'};
-  competence = {titre: 'nav.comp', style: 'comp', url: '/../skills'};
+  exp = { titre: 'nav.exp', style: 'exp', url: '/../work-experience' };
+  formation = { titre: 'nav.form', style: 'form', url: '/../education' };
+  interet = { titre: 'nav.int', style: 'interet', url: '/../hobbies' };
+  competence = { titre: 'nav.comp', style: 'comp', url: '/../skills' };
   contactColor = '#263056';
   constructor() { }
 
@@ -18,11 +18,15 @@ export class HomeComponent implements OnInit {
     const titleToShow = document.getElementById('smallTitle');
     titleToShow.hidden = true;
     document.addEventListener('scroll', () => {
-      const scrollTop = window.pageYOffset || self.pageYOffset || document.body.scrollTop;
-      if (scrollTop > 175) {
-        titleToShow.hidden = false;
+      if (window.location.pathname === '/home' || window.location.pathname === '/') {
+        const scrollTop = window.pageYOffset || self.pageYOffset || document.body.scrollTop;
+        if (scrollTop > 175) {
+          titleToShow.hidden = false;
+        } else {
+          titleToShow.hidden = true;
+        }
       } else {
-        titleToShow.hidden = true;
+        titleToShow.hidden = false;
       }
     });
     document.getElementById('clicHome').addEventListener('click', () => {
@@ -36,6 +40,9 @@ export class HomeComponent implements OnInit {
     });
     document.getElementById('clicLinkedin').addEventListener('click', () => {
       document.getElementById('linkedinBtn').hidden = false;
+    });
+    document.getElementById('clicGit').addEventListener('click', () => {
+      document.getElementById('git').hidden = false;
     });
 
   }

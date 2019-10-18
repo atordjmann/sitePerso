@@ -103,8 +103,8 @@
         },
         "elk":{
             "title":"Elasticsearch + Logstash + Kibana",
-            "theo":"Reading the full documentation. Writing of an abstract and a guide .",
-            "pra":"My first mission at Sopra Steria consisted in testing and setting up these softwares in order to use them in our applications."
+            "theo":"Reading the full documentation. Writing of a documentation for the install and use of the stack.",
+            "pra":"My first mission at Sopra Steria consisted in testing and setting up these softwares in order to use them in our applications. I made an in-depth work of groks, in order to treat log files. Finally I built an Angular app using Elasticsearch as a service. "
         },
         "ia":{
             "title":"Intelligence artificielle et machine learning",
@@ -157,14 +157,40 @@
             "theo":""
         }
     },
+    "proj":{
+        "title":"Projets",
+        "cv":{
+            "title":"Dynamic Resume Website",
+            "desc":"My personal website, where it is possible to find my resume in a dynamic version, or a more traditionnal one. It is developped with Angular and deployed in a server provided by my school Centrale Marseille."
+        },
+        "job":{
+            "title":"Website to find your first job",
+            "desc":"Website that helps you find the company of your dream for a first job, an internship or work-study training according to several criterias. We want to best match offers with candidates. The site is coded with Angular and NodeJs."
+        },
+        "treeview":{
+            "title":"Reusable treeview component.",
+            "desc":"For my work in Sopra Steria, I developed a treeview component using Typescript. The aim was to build a treeview completely reusable, easy to modify, easy to integrate. It can fit easily any context."
+        },
+        "elastic":{
+            "title":"ElasticStack documentation",
+            "desc":"Work on the writing of a complete documentation of Elasticsearch. I made my own documentation, thanks to experiments, for the install of Elasticsearch, Logstash and Kibana on Windows and Linux. Then I read he full documentation of Elasticsearch and made a sum up, adding some relevant informations. Finally, I build an Angular project to use Elasticsearch as a service. It is available on Github."
+        }
+    },
     "int":{
+        "hover": "hover to see more",
         "title": "Hobbies",
         "photo":"Photography film and reflex",
-        "music": "Music",
-        "sport": "Sport",
+        "music": "Music - piano and ukulele",
+        "sport": "Sport - running, fitness",
         "cook": "Cooking",
         "asso": "Volunteering",
-        "film":"Movies and TV shows"
+        "film":"Movies and TV shows",
+        "detail":{
+            "title":"My volunteering in details",
+            "cheer":"The association aims at helping people suffuring of cancer, and their family. They organize public events to raise money, or private events to distract or help people with a specific project. I was the secretary of the association in 2018, but also the project manager. During my mandate I took part in the organization of the association events, like the annual race 'Course contre le cancer', where for each runned kilometer, 1€ is gived to an association, or the 'Operation Cupidon', where we sold flowers to raise money. Also I organized two events: a sailing trip and ULM flights for patient in remission.",
+            "inter":"I was part of the organization of a sport event, gathering students from every Centrale school (Paris, Lille, Nantes, Lyon, Marseille). It was a competition during an entire week end, in five ball sport. ",
+            "pho":"Echanges Phocéen is an association where members tutor young students from priority education territories or in a situation of disability, to promote equal opportunities. I was in charge of middle school students."
+        }
     },
     "cv":{
         "cv-button": "My resume",
