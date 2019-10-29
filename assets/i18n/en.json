@@ -71,6 +71,11 @@
             "theo":"Reading on Packt website (React and react native, Beginning react, React Components)",
             "pra":""
         },
+        "svelt":{
+            "title":"Svelte",
+            "theo":"Svelte's tutorial and reading on Packt website (Svelte.js The complete guide)",
+            "pra":""
+        },
         "djan":{
             "title":"Django",
             "theo":"Tutorial Django.",

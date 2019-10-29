@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class CvTemplateComponent implements OnInit {
 
   competences = [
-    { icon : 'fa fa-code', title : 'Front-End Development', tab : ['html', 'type', 'angu', 'react', 'djan', 'jq'],
+    { icon : 'fa fa-code', title : 'Front-End Development', tab : ['html', 'type', 'angu', 'react', 'svelt', 'djan', 'jq'],
       class: 'skill-box skill-front' },
     { icon : 'fa fa-server', title : 'Back-End Development', tab : ['node', 'csharp', 'java'], class: 'skill-box skill-back' },
     {icon : 'fa fa-database', title : 'Data Science', tab : ['sql', 'elk'], class: 'skill-box skill-data'},
