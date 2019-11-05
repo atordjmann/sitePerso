@@ -74,7 +74,7 @@
         "svelt":{
             "title":"Svelte",
             "theo":"Tutoriel officiel de Svelte et lecture de livre sur le site Packt (Svelte.js The complete guide)",
-            "pra":""
+            "pra":"Projet personnel d'application pour organiser les candidatures à différentes emplois. J'utilise Svelte, Node et Elasticsearch."
         },
         "djan":{
             "title":"Django",
